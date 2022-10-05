@@ -1,5 +1,6 @@
 import TechnologyLeft from "./technology-left/TechnologyLeft";
 import './technology.css'
+import TechnologyRight from "./TechnologyRight";
 
 const Technology = () => {
   return (
@@ -7,6 +8,7 @@ const Technology = () => {
       <div className="containar">
         <div className="row">
           <TechnologyLeft />
+          <TechnologyRight />
         </div>
       </div>
     </div>
