@@ -1,3 +1,25 @@
 html , body,#root{
     height: 100%;
 }
+
+*{
+    color: white !important;
+}
+h1{
+    font-size: 113pt;
+}
+h2{
+    font-size: 90pt;
+}
+h3{
+    font-size: 60pt;
+}
+h4{
+    font-size: 40pt;
+}
+h5{
+    font-size: 25pt;
+}
+h6{
+    font-size: 15pt;
+}
