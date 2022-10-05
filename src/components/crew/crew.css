@@ -1,0 +1,31 @@
+.crew{
+    height: 100%;
+    background: url('./../../../public/images/destination/background-destination-desktop.jpg') no-repeat;
+    background-size: cover;
+}
+.crew-left{
+    margin-top: 200px !important;
+}
+
+.crew-right{
+    margin-top: 300px !important;
+}
+.crew-content{
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.pagination-item{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    background-color: rgba(211, 211, 211, 0.431);
+    border-radius: 50%;
+}
+.pagination{
+    margin-top: 50px;
+    margin-left: 65px;
+}
+.pagination-active{
+    background-color: white;
+}
