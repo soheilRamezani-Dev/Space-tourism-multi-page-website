@@ -3,11 +3,22 @@
     background: url('./../../../public/images/destination/background-destination-desktop.jpg') no-repeat;
     background-size: cover;
 }
-.destination-content>div{
+.destination-left{
     margin-top: 200px !important;
 }
 .destination-img{
     margin-top: 70px;
-    margin-left: 50px;
+    margin-right: 100px;
 }
-
+.destination-right{
+    margin-top: 300px !important;
+}
+.destination .nav-link{
+    margin: 0 15px !important;
+}
+.nav-item{
+    height: 50px;
+}
+.destination-info h5{
+    font-size: 20pt;
+}
