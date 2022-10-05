@@ -1,5 +1,11 @@
+import Header from "./components/Header/Header";
+import Home from "./components/home/Home";
+
 const App = () => {
-    return <p>space app</p>
+    return <>
+    <Header/>
+    <Home/>
+    </>
 }
  
 export default App;

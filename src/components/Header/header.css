@@ -1,0 +1,35 @@
+.header{
+    width: 100%;
+    position: absolute;
+    top: 40px;
+}
+.navbar{
+    padding: 0 !important;
+}
+.header-container{
+    width: 100%;
+}
+.navbar-items{
+    background-color: rgba(141, 141, 141, 0.255);
+    backdrop-filter: blur(10px);
+}
+.nav-link{
+    color: white !important;
+    margin:0 25px !important;
+    padding: 25px 0 !important;
+}
+.active{
+    border-bottom: 3px white solid;
+}
+
+.row{
+    width: 100%;
+}
+.line{
+    height: 0.01rem;
+    background-color: white;
+    margin-top: 37px !important;
+}
+.navbar-nav{
+margin: 0 auto;
+}
