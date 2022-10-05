@@ -1,5 +1,6 @@
 import "./crew.css";
 import CrewLeft from "./crew-left/CrewLeft";
+import CrewRight from "./CrewRight";
 
 const Crew = () => {
   return (
@@ -7,9 +8,7 @@ const Crew = () => {
       <div className="containar">
         <div className="row">
           <CrewLeft />
-          <div className="crew-left col-lg-4 flex-wrap d-flex justify-content-center">
-            fgb
-          </div>
+          <CrewRight/>
         </div>
       </div>
     </div>

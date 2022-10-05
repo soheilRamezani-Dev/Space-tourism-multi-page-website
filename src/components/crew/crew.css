@@ -4,7 +4,7 @@
     background-size: cover;
 }
 .crew-left{
-    margin-top: 200px !important;
+    margin-top: 250px !important;
 }
 
 .crew-right{
@@ -28,4 +28,8 @@
 }
 .pagination-active{
     background-color: white;
+}
+
+.crew-left img{
+    margin-right: 400px;
 }
