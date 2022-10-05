@@ -16,3 +16,18 @@
 .left-containar p{
     font-weight: lighter;
 }
+.explore-button{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-top: 150px;
+    transition: linear 70ms;
+}
+.explore-button span{
+    color: black !important;
+    font-size: 15pt;
+}
+.explore-button:hover{
+    box-shadow: 0 0 10px 20px rgba(185, 185, 185, 0.217);
+    transition: linear 70ms;
+}
