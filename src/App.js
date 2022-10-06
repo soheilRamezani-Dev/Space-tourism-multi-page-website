@@ -12,7 +12,7 @@ const App = () => {
           <Route path="/" element={<Header />}>
             <Route index element={<Home />}></Route>
             <Route path="destination">
-                <Route path=":destination_moon" element={<Destination/>}></Route>
+                <Route path=":destination_name" element={<Destination/>}></Route>
                 <Route path="" element={<Navigate to="moon"/>}></Route>
             </Route>
             <Route path="crew">
