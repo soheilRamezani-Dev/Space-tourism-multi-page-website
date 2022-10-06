@@ -3,7 +3,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/home/Home";
 import Crew from "./components/crew/Crew";
 import Technology from "./components/technology/Technology";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes,Navigate } from "react-router-dom";
 
 const App = () => {
   return (
@@ -13,15 +13,15 @@ const App = () => {
             <Route index element={<Home />}></Route>
             <Route path="destination">
                 <Route path=":destination_moon" element={<Destination/>}></Route>
-                <Route path="" element={<Destination/>}></Route>
+                <Route path="" element={<Navigate to="moon"/>}></Route>
             </Route>
             <Route path="crew">
                 <Route path=":crew_name"  element={<Crew />}></Route>
-                <Route path=""  element={<Crew />}></Route>
+                <Route path="" element={<Navigate to="douglas-hurley"/>}></Route>
             </Route>
             <Route path="technology">
                 <Route path=":technology_name" element={<Technology />}></Route>
-                <Route path="" element={<Technology />}></Route>
+                <Route path="" element={<Navigate to="launch-vehicle"/>}></Route>
             </Route>
           </Route>
       </Routes>
