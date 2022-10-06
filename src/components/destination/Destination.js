@@ -9,7 +9,8 @@ import { useState } from "react";
 const Destination = () => {
   const [destination, setdestination] = useState({});
   const urlParams = useParams();
-  const destinationInfo = destination_api.find(val=>val.url===urlParams.destination_name);
+  const destinationInfo = destination_api.find(val=>urlParams.destination_name===val.url)
+  const destinationInfo1 = destination_api[urlParams.destination_name];
   if(urlParams.destination_name !== destination.url){
     setdestination(destinationInfo);
   }
