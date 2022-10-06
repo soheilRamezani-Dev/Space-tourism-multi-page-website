@@ -11,7 +11,7 @@ const Header = () => {
             <div className="row">
               <div className="logo col-lg-2 d-flex justify-content-center mt-2">
                 <a class="navbar-brand" href="#">
-                  <img src="images/shared/logo.svg" />
+                  <img src={process.env.PUBLIC_URL + "/images/shared/logo.svg"} />
                 </a>
               </div>
               <button
