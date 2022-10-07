@@ -7,7 +7,7 @@ const NavItem = ({val, id}) => {
   };
 
   return (
-    <li class="nav-item">
+    <li className="nav-item">
       <NavLink
         to={val.url}
         end

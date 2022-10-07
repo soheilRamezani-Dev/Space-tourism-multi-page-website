@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <>
       <section className="header">
-        <nav class="navbar navbar-dark navbar-expand-lg ">
-          <div class="header-container">
+        <nav className="navbar navbar-dark navbar-expand-lg ">
+          <div className="header-container">
             <div className="row">
               <Logo />
               <Line/>
