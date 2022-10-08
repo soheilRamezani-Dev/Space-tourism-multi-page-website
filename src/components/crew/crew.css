@@ -1,0 +1,65 @@
+.crew{
+    height: 100%;
+}
+
+.crew-left{
+    margin-top: 250px !important;
+}
+
+.crew-right{
+    margin-top: 240px !important;
+}
+.crew-content{
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.pagination-item{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    background-color: rgba(211, 211, 211, 0.431);
+    border-radius: 50%;
+}
+.pagination{
+    margin-top: 50px;
+    margin-left: 65px;
+}
+.pagination-active{
+    background-color: white;
+}
+
+.crew-left img{
+    margin-right: 400px;
+}
+
+@media (min-width: 992px) {
+    .crew {
+        background: url('./../../../public/images/crew/background-crew-desktop.jpg') no-repeat;
+        background-size: cover;
+    }
+  }
+  @media (max-width: 991px) {
+    .crew {
+        background: url('./../../../public/images/crew/background-crew-tablet.jpg') no-repeat;
+        background-size: cover;
+    }  
+    .crew-left{
+        margin-top: 150px !important;
+    }
+    .crew-content{
+        margin-top: 50px!important;
+    }
+    .crew-right{
+        margin-top: 0!important;
+    }
+    .crew-right img{
+        width: 250px;
+    }
+  }
+  @media (max-width: 767px) {
+    .crew {
+        background: url('./../../../public/images/crew/background-crew-mobile.jpg') no-repeat;
+        background-size: cover;
+    }
+  }
