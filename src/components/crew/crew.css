@@ -1,8 +1,7 @@
 .crew{
     height: 100%;
-    background: url('./../../../public/images/crew/background-crew-desktop.jpg') no-repeat;
-    background-size: cover;
 }
+
 .crew-left{
     margin-top: 250px !important;
 }
@@ -33,3 +32,34 @@
 .crew-left img{
     margin-right: 400px;
 }
+
+@media (min-width: 992px) {
+    .crew {
+        background: url('./../../../public/images/crew/background-crew-desktop.jpg') no-repeat;
+        background-size: cover;
+    }
+  }
+  @media (max-width: 991px) {
+    .crew {
+        background: url('./../../../public/images/crew/background-crew-tablet.jpg') no-repeat;
+        background-size: cover;
+    }  
+    .crew-left{
+        margin-top: 150px !important;
+    }
+    .crew-content{
+        margin-top: 50px!important;
+    }
+    .crew-right{
+        margin-top: 0!important;
+    }
+    .crew-right img{
+        width: 250px;
+    }
+  }
+  @media (max-width: 767px) {
+    .crew {
+        background: url('./../../../public/images/crew/background-crew-mobile.jpg') no-repeat;
+        background-size: cover;
+    }
+  }
