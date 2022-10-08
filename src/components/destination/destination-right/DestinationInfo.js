@@ -6,9 +6,9 @@ const DestinationInfo = () => {
   const destinationInfo = destination.info;
   return (
     <div className="destination-info row ms-5">
-      {destinationInfo.map((val) => {
+      {destinationInfo.map((val,key) => {
         return (
-          <div className="col-6">
+          <div key={key} className="col-6">
             <div className="pt-4 fs-sm fw-light">
               <small>{val.name}</small>
             </div>

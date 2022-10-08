@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 
 const NavItem = ({val, id}) => {
-    console.log(id)
   const pad = (num) => {
     return num < 10 ? "0" + num.toString() : num.toString();
   };
@@ -10,7 +9,7 @@ const NavItem = ({val, id}) => {
     <li className="nav-item">
       <NavLink
         to={val.url}
-        end
+        end={val.url==='/'?true:false}
         className={({ isActive }) => (isActive ? "active" : "")}
       >
         <span className="nav-link">

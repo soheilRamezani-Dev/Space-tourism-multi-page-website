@@ -3,7 +3,6 @@ import technologyContext from "../../../context/technologyContext";
 
 const TechnologyContent = () => {
   const {technology} = useContext(technologyContext);
-  console.log(technology);
   return (
     <div className="col-10 mt-3">
       <p className="fw-light">THE TERMINOLOGY…</p>

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const BodyRight = () => {
   return (
-    <div className="col-lg-6 p-5">
+    <div className="col-lg-6 p-5 pt-0">
       <NavLink to="/destination">
         <div
           role="button"
