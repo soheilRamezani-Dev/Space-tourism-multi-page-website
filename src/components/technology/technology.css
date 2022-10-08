@@ -1,32 +1,65 @@
-.technology{
-    height: 100%;
-    background: url('./../../../public/images/technology/background-technology-desktop.jpg') no-repeat;
-    background-size: cover;
+.technology {
+  height: 100%;
+  background: url("./../../../public/images/technology/background-technology-desktop.jpg")
+    no-repeat;
+  background-size: cover;
 }
-.technology-left{
-    margin-top: 250px !important;
+.technology-left {
+  margin-top: 250px !important;
 }
 
-.technology-right{
-    margin-top: 350px !important;
+.technology-right {
+  margin-top: 350px !important;
 }
-.technology-content{
-    margin-left: 140px !important;
-    margin-top: 100px !important;
+.technology-content {
+  margin-left: 140px !important;
+  margin-top: 100px !important;
 }
-.technology-pagination{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 1px solid white;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 17pt;
-    font-weight: lighter;
-    margin: 10px;
+.technology-pagination {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 17pt;
+  font-weight: lighter;
+  margin: 10px;
 }
-.technology-pagination-active{
-    background-color: white;
-    color: black !important;
-    font-weight: bold;
+.technology-pagination-active {
+  background-color: white;
+  color: black !important;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .technology {
+    background: url("./../../../public/images/technology/background-technology-desktop.jpg")
+      no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 991px) {
+  .technology {
+    background: url("./../../../public/images/technology/background-technology-tablet.jpg")
+      no-repeat;
+    background-size: cover;
+  }
+  .technology-left {
+    margin-top: 150px !important;
+  }
+  .technology-content {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+  }
+  .technology-right {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  .technology {
+    background: url("./../../../public/images/technology/background-technology-mobile.jpg")
+      no-repeat;
+    background-size: cover;
+  }
 }
