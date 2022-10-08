@@ -1,33 +1,66 @@
-.home{
-    height: 100%;
-    background: url('./../../../public/images/home/background-home-desktop.jpg') no-repeat;
+.home {
+  height: 100%;
+}
+@media (min-width: 992px) {
+  .home {
+    background: url("./../../../public/images/home/background-home-desktop.jpg")
+      no-repeat;
     background-size: cover;
+  }
+  .home-content > div {
+    margin-top: 10% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .home {
+    background: url("./../../../public/images/home/background-home-tablet.jpg")
+      no-repeat;
+    background-size: cover;
+  }
+  .home-content > div {
+    margin-top: 0 !important;
+  }
+  .explore-button {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  .home {
+    background: url("./../../../public/images/home/background-home-mobile.jpg")
+      no-repeat;
+    background-size: cover;
+  }
+  .home-content > div {
+    margin-top: 0 !important;
+  }
+  .explore-button {
+    margin-top: 0 !important;
+  }
 }
 
-.home-content>div{
-    margin-top: 20% !important;
-    display: flex;
-    justify-content: center;
+.home-content > div {
+  display: flex;
+  justify-content: center;
 }
 
-.left-containar{
-    width: 470px;
+.left-containar {
+  width: 470px;
 }
-.left-containar p{
-    font-weight: lighter;
+.left-containar p {
+  font-weight: lighter;
 }
-.explore-button{
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    margin-top: 150px;
-    transition: linear 70ms;
+.explore-button {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin-top: 150px;
+  transition: linear 70ms;
 }
-.explore-button span{
-    color: black !important;
-    font-size: 15pt;
+.explore-button span {
+  color: black !important;
+  font-size: 15pt;
 }
-.explore-button:hover{
-    box-shadow: 0 0 10px 20px rgba(185, 185, 185, 0.217);
-    transition: linear 70ms;
+.explore-button:hover {
+  box-shadow: 0 0 10px 20px rgba(185, 185, 185, 0.217);
+  transition: linear 70ms;
 }

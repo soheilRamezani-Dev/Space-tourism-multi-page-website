@@ -5,7 +5,7 @@ import CrewTitle from "./CrewTitle";
 const CrewLeft = () => {
   return (
     <div className="crew-left col-lg-8 flex-wrap d-flex justify-content-center">
-      <div className="w-50">
+      <div className="w-75">
         <CrewTitle />
         <CrewContent />
         <CrewPagination />

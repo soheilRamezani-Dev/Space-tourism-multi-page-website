@@ -10,7 +10,6 @@ const Crew = () => {
   const [crew, setCrew] = useState({});
   const urlParam = useParams();
   const crewInfo = chew_api.find((val) => val.url === urlParam.crew_name);
-  //console.log(crewInfo);
   if (urlParam.crew_name !== crew.url) setCrew(crewInfo);
   return (
     <div className="crew">

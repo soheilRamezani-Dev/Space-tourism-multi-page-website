@@ -5,7 +5,7 @@ import DestinationTabs from "./Tabs";
 const DestinationRight = () => {
   return (
     <div className="destination-right col-lg-6 d-flex flex-column ps-5">
-      <div className="destination-right-content w-50">
+      <div className="destination-right-content w-75">
         <DestinationTabs />
 
         <Description />

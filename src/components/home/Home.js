@@ -4,9 +4,9 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <div className="home">
-      <div className="containar">
-        <div className="row home-content">
+    <div className="home pt-5">
+      <div className="containar pt-5">
+        <div className="row home-content pt-5">
           <BodyLeft/>
           <BodyRight/>
         </div>

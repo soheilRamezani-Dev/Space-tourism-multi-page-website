@@ -5,8 +5,8 @@ const CrewPagination = () => {
 
   return (
     <div className="pagination">
-      {chew_api.map(val=>{
-        return <NavLink to={"/crew/"+val.url} className={({isActive})=>(isActive?'pagination-active':'')+' pagination-item'}></NavLink>
+      {chew_api.map((val,key)=>{
+        return <NavLink key={key} to={"/crew/"+val.url} className={({isActive})=>(isActive?'pagination-active':'')+' pagination-item'}></NavLink>
       })}
           </div>
   );

@@ -1,6 +1,6 @@
 const BodyLeft = () => {
   return (
-    <div className="col-lg-6 p-5">
+    <div className="col-lg-6 p-5 pb-0">
       <div className="left-containar">
         <h5 className="fw-light">SO, YOU WANT TO TRAVEL TO</h5>
         <h1>SPACE</h1>

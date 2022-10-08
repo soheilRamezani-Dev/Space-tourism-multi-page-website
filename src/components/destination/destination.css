@@ -1,22 +1,65 @@
-.destination{
-    height: 100%;
-    background: url('./../../../public/images/destination/background-destination-desktop.jpg') no-repeat;
-    background-size: cover;
-}
-.destination-left{
-    margin-top: 200px !important;
-}
-.destination-img{
-    margin-top: 70px;
-    margin-right: 100px;
-}
-.destination-right{
-    margin-top: 300px !important;
-}
-.destination .nav-link{
-    margin: 0 15px !important;
-}
-.destination-info h5{
-    font-size: 20pt;
+.destination {
+  height: 100%;
 }
 
+@media (min-width: 992px) {
+  .destination {
+    background: url("./../../../public/images/destination/background-destination-desktop.jpg")
+      no-repeat;
+    background-size: cover;
+  }
+  .destination-left {
+    margin-top: 200px !important;
+  }
+  .destination-img {
+    margin-top: 70px;
+    margin-right: 100px;
+  }
+  .destination-right {
+    margin-top: 300px !important;
+  }
+}
+@media (max-width: 991px) {
+  .destination {
+    background: url("./../../../public/images/destination/background-destination-tablet.jpg")
+      no-repeat;
+    background-size: cover;
+  }
+  .destination-left {
+    margin-top: 150px !important;
+  }
+  .destination-right-content {
+    margin: 0 auto;
+  }
+  .destination-img {
+    margin: 0 auto;
+    width: 200px;
+  }
+  .destination-right {
+    margin-top: 0 !important;
+  }
+  .destination-right h2{
+    margin-top: 0 !important;
+  }
+  .line{
+      margin-top: 15px !important;
+  }
+
+}
+@media (max-width: 767px) {
+  .destination {
+    background: url("./../../../public/images/destination/background-destination-mobile.jpg")
+      no-repeat;
+    background-size: cover;
+  }
+  .destination-left {
+    margin-top: 50px !important;
+  }
+}
+
+.destination .nav-link {
+  margin: 0 15px !important;
+}
+.destination-info h5 {
+  font-size: 20pt;
+}

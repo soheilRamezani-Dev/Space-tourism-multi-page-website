@@ -1,4 +1,5 @@
 import TechnologyContent from "./TechnologyContent";
+import TechnologtImgMobile from "./TechnologyImgMobile";
 import TechnologyPagination from "./TechnologyPagination";
 import TechnologyTitle from "./TechnologyTitle";
 
@@ -8,6 +9,7 @@ const TechnologyLeft = () => {
       <div className="w-75">
         <TechnologyTitle/>
         <div className="technology-content row">
+          <TechnologtImgMobile/>
           <TechnologyPagination/>
           <TechnologyContent/>
         </div>
