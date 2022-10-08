@@ -1,15 +1,15 @@
 import { NavLink } from "react-router-dom";
 
-const NavItem = ({val, id}) => {
+const NavItem = ({ val, id, setNavToggle }) => {
   const pad = (num) => {
     return num < 10 ? "0" + num.toString() : num.toString();
   };
 
   return (
-    <li className="nav-item">
+    <li className="nav-item" onClick={() => setNavToggle(false)}>
       <NavLink
         to={val.url}
-        end={val.url==='/'?true:false}
+        end={val.url === "/" ? true : false}
         className={({ isActive }) => (isActive ? "active" : "")}
       >
         <span className="nav-link">
