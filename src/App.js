@@ -1,9 +1,11 @@
-import Destination from "./components/destination/Destination";
 import Header from "./components/Header/Header";
-import Home from "./components/home/Home";
-import Crew from "./components/crew/Crew";
-import Technology from "./components/technology/Technology";
+import { lazy } from "react";
 import { BrowserRouter, Route, Routes,Navigate } from "react-router-dom";
+import Home from "./components/home/Home"
+
+const Destination= lazy(()=>import("./components/destination/Destination"));
+const Crew= lazy(()=>import("./components/crew/Crew"));
+const Technology= lazy(()=>import("./components/technology/Technology"));
 
 const App = () => {
   return (
