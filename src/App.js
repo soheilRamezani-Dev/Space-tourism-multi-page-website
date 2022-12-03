@@ -1,9 +1,9 @@
 import Header from "./components/Header/Header";
 import { lazy } from "react";
 import { BrowserRouter, Route, Routes,Navigate } from "react-router-dom";
+import Home from "./components/home/Home"
 
 const Destination= lazy(()=>import("./components/destination/Destination"));
-const Home= lazy(()=>import("./components/home/Home"));
 const Crew= lazy(()=>import("./components/crew/Crew"));
 const Technology= lazy(()=>import("./components/technology/Technology"));
 
